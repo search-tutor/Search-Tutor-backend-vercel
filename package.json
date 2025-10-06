@@ -1,0 +1,25 @@
+{
+  "name": "search-tutor-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-vapid-keys": "web-push generate-vapid-keys"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "vercel": "^47.0.5",
+    "web-push": "^3.6.7",
+    "firebase-admin": "^12.2.0"
+  }
+}
