@@ -6,13 +6,7 @@ const cors = require("cors");
 const port = process.env.PORT || 4000;
 
 // middleware
-app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://searchtutorbd.com'
-  ],
-  credentials: true,
-}));
+app.use(cors());
 app.use(express.json());
 
 
@@ -847,7 +841,7 @@ async function run() {
     //       return res.status(404).json({ error: "Application not found" });
     //     }
 
-    //     res.json({ success: true, message: `Status updated to "${status}"` });
+    //     res.json({ success: true, message: `Status updated to \"${status}\"` });
     //   } catch (error) {
     //     console.error("Error updating application status:", error);
     //     res.status(500).json({ error: "Server error" });

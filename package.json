@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "generate-vapid-keys": "web-push generate-vapid-keys"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -16,10 +15,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "firebase-admin": "^12.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.17.0",
-    "vercel": "^41.0.2",
+    "vercel": "^47.0.5",
     "web-push": "^3.6.7"
   }
 }
